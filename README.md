@@ -24,6 +24,7 @@ This marketplace provides MCP (Model Context Protocol) servers and skills for li
 /plugin install instrument-data-to-allotrope@life-sciences
 /plugin install nextflow-development@life-sciences
 /plugin install scvi-tools@life-sciences
+/plugin install scientific-problem-selection@life-sciences
 ```
 
 For servers requiring authentication (all except PubMed), configure credentials after installation:
@@ -113,6 +114,17 @@ Run nf-core bioinformatics pipelines (rnaseq, sarek, atacseq) on local or public
 
 Deep learning toolkit for single-cell omics analysis using scvi-tools. Includes model selection guidance, training workflows, and integration pipelines for scVI, scANVI, totalVI, PeakVI, MultiVI, and more.
 
+#### Scientific Problem Selection
+**Plugin ID**: `scientific-problem-selection@life-sciences`
+
+Systematic framework for scientific problem selection and strategic research decisions. Based on Fischbach & Walsh's methodology from Cell (2024), this skill helps researchers with project ideation, risk assessment, troubleshooting stuck projects, and strategic scientific planning.
+
+**Use cases:**
+- Pitch and refine new research ideas
+- Evaluate project risks and feasibility
+- Navigate decision trees in active projects
+- Strategic research planning and problem choice
+
 ## Detailed Installation
 
 ### 1. Add the marketplace (one time)
@@ -138,6 +150,7 @@ Deep learning toolkit for single-cell omics analysis using scvi-tools. Includes 
 /plugin install instrument-data-to-allotrope@life-sciences
 /plugin install nextflow-development@life-sciences
 /plugin install scvi-tools@life-sciences
+/plugin install scientific-problem-selection@life-sciences
 ```
 
 ### 3. Configure credentials (if needed)
