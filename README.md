@@ -67,6 +67,27 @@ Access academic research and publications from Wiley's Scholar Gateway.
 
 **Requirements**: Free Scholar Gateway account
 
+#### Consensus
+**Plugin ID**: `consensus@life-sciences`
+
+AI-powered search across 200M+ peer-reviewed scientific research papers, with evidence synthesis.
+
+**Requirements**: Consensus account (https://consensus.app)
+
+#### Cortellis Regulatory Intelligence (Clarivate)
+**Plugin ID**: `cortellis@life-sciences`
+
+Global drug regulatory intelligence covering submissions, approvals, and guidance documents.
+
+**Requirements**: Cortellis subscription (https://clarivate.com/cortellis)
+
+#### AdisInsight (Springer Nature)
+**Plugin ID**: `adisinsight@life-sciences`
+
+Drug development pipeline, clinical trials, safety, and deals intelligence.
+
+**Requirements**: AdisInsight subscription (https://adisinsight.springer.com)
+
 ### Local MCP Servers (MCPB)
 
 #### 10x Genomics Cloud
@@ -171,8 +192,8 @@ Restart to activate the MCP servers.
 ## Authentication Requirements
 
 - **No authentication**: PubMed
-- **Free account required**: BioRender, Synapse, Wiley Scholar Gateway
-- **Paid/institutional account**: 10x Genomics (requires data in account to be useful)
+- **Free account required**: BioRender, Synapse, Wiley Scholar Gateway, Consensus
+- **Paid/institutional account**: 10x Genomics (requires data in account to be useful), Cortellis, AdisInsight
 
 ## Support
 
